@@ -1,0 +1,77 @@
+.container {
+    background: gray;
+    padding: 0 0 10px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    margin: 0;
+    background: linear-gradient(to left, white, white, white);
+    box-shadow: 0 0 10px white;
+    color: #4da1ff;
+}
+
+h3, h2{
+    padding: 3px 5px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 10px 5px 10px;
+}
+
+hr {
+    border-top: 1px dashed red;
+    margin-bottom: 20px;
+}
+
+.data {
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    margin: 5px 0;
+}
+
+.data:hover {
+    border: 1px solid blue;
+    box-shadow: 0 0 10px blue;
+}
+
+input {
+    margin: 20px 0;
+    border: 1px dotted blue;
+    height: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+
+button {
+    color: white;
+    background: gray;
+    font-size: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+button:hover {
+    color: black;
+    background: #4da1ff;
+
+}
+
+button:focus {
+    outline: none;
+}
